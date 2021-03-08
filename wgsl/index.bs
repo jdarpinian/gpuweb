@@ -3698,7 +3698,7 @@ function_header
 
 param_list
   :
-  | (variable_ident_decl COMMA)* variable_ident_decl
+  | (variable_ident_decl COMMA)* variable_ident_decl COMMA?
 </pre>
 
 <table class='data'>
